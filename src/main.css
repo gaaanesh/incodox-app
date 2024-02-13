@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input:checked + .custom-qwrapper .custom-qwrapper-inner >svg {
+    display: block !important;
+}
+input:checked + .custom-qwrapper .custom-qwrapper-inner  {
+    border-color: rgb(15 80 148);
+    background-color: rgb(15 80 148);
+    color: #fff;
+}
+.custom-qwrapper {
+    border:1px solid #D0D5DD;
+}
+
+input:checked + .custom-qwrapper {
+    border-color: rgb(15 80 148);
+    background-color: #E2F0FF;
+}
