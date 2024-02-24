@@ -1670,6 +1670,10 @@ video {
   background-image: url('../assets/images/background-wave.svg');
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-\[center_top_20rem\] {
   background-position: center top 20rem;
 }
